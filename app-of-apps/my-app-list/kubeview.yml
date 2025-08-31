@@ -17,7 +17,7 @@ spec:
     targetRevision: HEAD
     path: ./app-of-apps/manifests
    
-  # Destination cluster and namespace to deploy the application
+  # Destination clusters and namespace to deploy the application
   destination:
     server: https://kubernetes.default.svc
     namespace: kubeview
